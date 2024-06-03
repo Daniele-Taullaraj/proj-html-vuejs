@@ -16,7 +16,7 @@ export default {
 <template>
 
     <!-- section container della sezione -->
-    <div id="background-pattern" class="container-fluid p-5">
+    <div id="background-pattern" class="container-fluid p-5 border-bottom">
 
 
         <!-- titolo sezione + stringa di testo -->
@@ -73,22 +73,22 @@ export default {
                     <thead>
                         <th class="p-4 w-25">
                             <div class="d-flex flex-column align-items-center">
-                                <img src="../../../assets/img/img/h5-custom-icon-7.png" alt="">
-                                <h4>Standard</h4>
+                                <img src="../../../assets/img/h5-custom-icon-7.png" alt="">
+                                <h4 class="pt-3">Standard</h4>
                                 <h4>$12</h4>
                             </div>
                         </th>
                         <th class="p-4 w-25">
                             <div class="d-flex flex-column align-items-center">
-                                <img src="../../../assets/img/img/h5-custom-icon-8.png" alt="">
-                                <h4>Professional</h4>
+                                <img src="../../../assets/img/h5-custom-icon-8.png" alt="">
+                                <h4 class="pt-3">Professional</h4>
                                 <h4>$59</h4>
                             </div>
                         </th>
                         <th class="p-4 w-25">
                             <div class="d-flex flex-column align-items-center">
-                                <img src="../../../assets/img/img/h5-custom-icon-9.png" alt="">
-                                <h4>Advanced</h4>
+                                <img src="../../../assets/img/h5-custom-icon-9.png" alt="">
+                                <h4 class="pt-3">Advanced</h4>
                                 <h4>$88</h4>
                             </div>
                         </th>
@@ -167,12 +167,12 @@ export default {
 <style scoped>
 /* background container */
 #background-pattern {
-    background-image: url(../../../assets/img/img/background-pattern.jpg);
+    background-image: url(../../../assets/img/background-pattern.jpg);
 }
 
 /* table */
 th {
-    height: 13rem;
+    height: 14rem;
     border-top: 4px solid #D6F2FF;
 }
 
