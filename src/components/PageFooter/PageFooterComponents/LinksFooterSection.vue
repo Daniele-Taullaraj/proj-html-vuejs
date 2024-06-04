@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "ClientsSection",
+    name: "LinksfooterSection",
     data() {
         return {
 
@@ -14,74 +14,112 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid p-5">
-        <div class="row p-5 text-white">
-            <div class="col-3 pe-4">
-                <a href="" class="pb-5"><img class="w-50" src="../../../assets/img/footer-logo-1.png" alt=""></a>
-                <span>Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to
-                    Home</span>
-                <a href="" class="pt-5">
-                    <i class="fa-solid fa-phone  me-2"></i><span>1-677-124-44227</span>
-                </a>
-                <a href="" class="pt-3">
-                    <i class="fa-regular fa-clock me-2"></i><span>Mon-Sat 8.00-18.00</span>
-                </a>
-            </div>
+    <div id="background-pattern">
 
-            <div class="col-2">
-                <h4 class="fw-bold pb-5 m-0">Popular Courses</h4>
-                <div>
-                    <a href="" class="hover-blue fs-5 fw-semibold">Business English</a>
-                    <a href="" class="hover-grey">Preston Marshall</a>
+        <!-- section container -->
+        <div class="container-fluid p-5">
+
+            <div class="row py-5 px-4 text-white">
+
+                <!-- iAcademy -->
+                <div class="col-3 pe-4">
+                    <a href="" class="pb-5"><img class="w-50" src="../../../assets/img/footer-logo-1.png" alt=""></a>
+                    <span>Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer
+                        to
+                        Home</span>
+                    <a href="" class="pt-5">
+                        <i class="fa-solid fa-phone me-2"></i><span>1-677-124-44227</span>
+                    </a>
+                    <a href="" class="pt-3">
+                        <i class="fa-regular fa-clock me-2"></i><span>Mon-Sat 8.00-18.00</span>
+                    </a>
                 </div>
-                <div class="pt-3">
-                    <a href="" class="hover-blue fs-5 fw-semibold">Socail Computing</a>
-                    <a href="" class="hover-grey">David Sanders</a>
+
+                <!-- Popular Courses -->
+                <div class="col-2">
+                    <h5 class="fw-bold pb-5 m-0">Popular Courses</h5>
+                    <div>
+                        <a href="" class="hover-blue d-block">Business English</a>
+                        <a href="" class="hover-grey">Preston Marshall</a>
+                    </div>
+                    <div class="pt-4">
+                        <a href="" class="hover-blue d-block">Socail Computing</a>
+                        <a href="" class="hover-grey">David Sanders</a>
+                    </div>
+                    <div class="pt-4">
+                        <a href="" class="hover-blue d-block">Learn Spanish</a>
+                        <a href="" class="hover-grey">Jennie King</a>
+                    </div>
                 </div>
-                <div class="pt-3">
-                    <a href="" class="hover-blue fs-5 fw-semibold">Learn Spanish</a>
-                    <a href="" class="hover-grey">Jennie King</a>
+
+                <!-- Supports -->
+                <div class="col-2 ps-4">
+                    <h5 class="fw-bold pb-5 m-0">Supports</h5>
+                    <a href="" class="hover-blue d-block pb-3">User dashborad</a>
+                    <a href="" class="hover-blue d-block pb-3">Contact Us</a>
+                    <a href="" class="hover-blue d-block pb-3">FAQ</a>
+                    <a href="" class="hover-blue d-block pb-3">Course Offer</a>
+                    <a href="" class="hover-blue d-block pb-3">Events</a>
+                </div>
+
+                <!-- Flexible Learning -->
+                <div class="offset-2 col-3">
+                    <h5 class="fw-bold pb-4">Flexible Learning</h5>
+                    <img class="w-100" src="../../../assets/img/footer-img-1.png" alt="">
                 </div>
             </div>
 
-            <div class="col-2 ps-4">
-                <h4 class="fw-bold pb-5 m-0">Supports</h4>
-                <a href="" class="hover-blue d-block pb-3">User dashborad</a>
-                <a href="" class="hover-blue d-block pb-3">Contact Us</a>
-                <a href="" class="hover-blue d-block pb-3">FAQ</a>
-                <a href="" class="hover-blue d-block pb-3">Course Offer</a>
-                <a href="" class="hover-blue d-block pb-3">Events</a>
+            <!-- hr -->
+            <hr class="text-white my-5 mx-4">
+
+
+            <!-- sezione contatti -->
+            <div class="row px-4">
+                <div class="col-3">
+                    <a href="">Copyrights 2017 ©Mikado Themes </a>
+                </div>
+                <div class="offset-4 col-5 text-white ">
+                    <span class="ms-5 me-4">CALL +44 300 303 0266</span>
+                    <span class="me-4">FOLLOW US</span>
+                    <a href=""><i class="fa-brands fa-twitter me-4"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram me-4"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
             </div>
 
-            <div class="offset-2 col-3">
-                <h4 class="fw-bold pb-4">Flexible Learning</h4>
-                <img class="w-100" src="../../../assets/img/footer-img-1.png" alt="">
-            </div>
-        </div>
-
-        <hr class="text-white m-5">
-
-        <div class="row px-5">
-            <div class="col-3">
-                <a href="">Copyrights 2017 ©Mikado Themes </a>
-            </div>
-            <div class="offset-5 col-4 text-white">
-                <span class="me-4">CALL +44 300 303 0266</span>
-                <span class="me-4">FOLLOW US</span>
-                <a href=""><i class="fa-brands fa-twitter me-4"></i></a>
-                <a href=""><i class="fa-brands fa-instagram me-4"></i></a>
-                <a href=""><i class="fa-brands fa-facebook me-4"></i></a>
-
-            </div>
+            <!-- fine section -->
         </div>
     </div>
 </template>
 
 <style scoped>
-.container-fluid {
-    background-color: #222222
+/* backround container */
+#background-pattern {
+    background-color: #222222;
 }
 
+/* section container */
+#background-pattern>div {
+    max-width: 1400px;
+}
+
+/* text style  */
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span,
+a {
+    color: #CECECE
+}
+
+h5,
+div a.hover-blue:first-child {
+    font-family: "Merriweather", serif;
+}
+
+/* hover */
 a:hover i,
 .hover-blue:hover {
     color: #40C4FF;
@@ -89,15 +127,5 @@ a:hover i,
 
 .hover-grey:hover {
     color: #959595
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-    color: #CECECE;
-}
-
-span {
-    color: #CECECE
 }
 </style>
