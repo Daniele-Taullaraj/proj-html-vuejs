@@ -138,9 +138,9 @@ export default {
                 <div class="col-12 text-center st_mainContent">
                     <h1 class="st_contentTitle">{{ HeaderSlide[currentSlide].title }}</h1>
                     <p>{{ HeaderSlide[currentSlide].content }}</p>
-                    <button class="st_slideContentButton" v-if="currentSlide != 1">{{ HeaderSlide[currentSlide].button
+                    <button class="st_slideContentButton " v-if="currentSlide != 1">{{ HeaderSlide[currentSlide].button
                         }}</button>
-                    <h2 v-if="currentSlide == 1"><i class="fa-solid fa-play bg-white text-dark p-3 rounded-circle"></i>
+                    <h2 v-if="currentSlide == 1"><i class="fa-solid fa-play"></i>
                     </h2>
                     <p @click="nextSlide" class="nextBtn"><i class="fa-solid fa-chevron-right"></i></p>
                     <p @click="prevSlide" class="prevBtn"><i class="fa-solid fa-chevron-left"></i></p>
@@ -160,6 +160,16 @@ export default {
 <style scoped>
 #max-width {
     max-width: 1400px;
+}
+
+.fa-play {
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    padding: 1.2rem;
+    border-radius: 50%;
+    padding-left: 1.4rem;
+    margin-top: 1rem;
 }
 
 /* container */
@@ -259,6 +269,7 @@ export default {
     background-color: #16B7FE;
     color: white;
     border: none;
+    margin-top: 1rem;
 }
 
 .nextBtn {

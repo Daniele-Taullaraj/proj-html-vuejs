@@ -55,24 +55,26 @@ export default {
     <div>
         <!-- Prima sezione  -->
         <!-- Container per la sezione -->
-        <div class="container-fluid my-5 boxed">
-            <div class="row justify-content-center border-bottom">
-                <!-- Text column -->
-                <div class="col-5 d-flex align-items-center">
-                    <div>
-                        <h2 class="py-2 fs-1">The trasted name for in-Home tutoring.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eligendi! Voluptate hic
-                            earum
-                            nobis perferendis rem, consequuntur vitae odit culpa officiis eos assumenda molestias
-                            et,
-                            ipsum
-                            deleniti quidem asperiores excepturi?</p>
-                        <a class="fw-bolder" href="">LEARN MORE</a>
+        <div class=" border-bottom">
+            <div class="container-fluid mt-5 boxed">
+                <div class="row justify-content-center">
+                    <!-- Text column -->
+                    <div class="col-5 d-flex align-items-center">
+                        <div>
+                            <h2 class="py-2 fs-1">The trasted name for in-Home tutoring.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eligendi! Voluptate hic
+                                earum
+                                nobis perferendis rem, consequuntur vitae odit culpa officiis eos assumenda molestias
+                                et,
+                                ipsum
+                                deleniti quidem asperiores excepturi?</p>
+                            <a class="fw-bolder" href="">LEARN MORE</a>
+                        </div>
                     </div>
-                </div>
-                <!-- Image column -->
-                <div class="col-7">
-                    <img src="../assets/img/h5-img-1.jpg" alt="Placeholder Image" class="img-fluid">
+                    <!-- Image column -->
+                    <div class="col-7">
+                        <img src="../assets/img/h5-img-1.jpg" alt="Placeholder Image" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +82,7 @@ export default {
 
         <!-- seconda sezione -->
         <!-- Container sezione 2 -->
-        <div class=" boxed container-fluid" @mouseover="handleMouseOver">
+        <div class=" boxed container-fluid mt-5" @mouseover="handleMouseOver">
             <div class="row boxed justify-content-center">
 
                 <!-- Image column -->
