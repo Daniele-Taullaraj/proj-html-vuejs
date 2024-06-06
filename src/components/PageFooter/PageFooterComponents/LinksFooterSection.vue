@@ -78,8 +78,8 @@ export default {
                 <div class="col-3">
                     <a href="">Copyrights 2017 ©Mikado Themes </a>
                 </div>
-                <div class="offset-4 col-5 text-white ">
-                    <span class="ms-5 me-4">CALL +44 300 303 0266</span>
+                <div class="offset-5 col-4 text-white ">
+                    <span class=" me-4">CALL +44 300 303 0266</span>
                     <span class="me-4">FOLLOW US</span>
                     <a href=""><i class="fa-brands fa-twitter me-4"></i></a>
                     <a href=""><i class="fa-brands fa-instagram me-4"></i></a>

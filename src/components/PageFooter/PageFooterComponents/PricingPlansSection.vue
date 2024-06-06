@@ -34,7 +34,7 @@ export default {
                         <thead>
                             <tr>
                                 <th class="p-4">
-                                    <h4 class="m-0 pb-3 fw-bold">Save up to 40% by paying weekly</h4>
+                                    <h5 class="m-0 pb-3 fw-bold">Save up to 40% by paying weekly</h5>
                                 </th>
                             </tr>
                         </thead>
@@ -74,22 +74,22 @@ export default {
                             <th class="p-4 w-25">
                                 <div class="d-flex flex-column align-items-center">
                                     <img src="../../../assets/img/h5-custom-icon-7.png" alt="">
-                                    <h4 class="pt-3 fw-bold">Standard</h4>
-                                    <h4 class="fw-bold">$12</h4>
+                                    <h5 class="pt-3 fw-bold">Standard</h5>
+                                    <h5 class="fw-bold">$12</h5>
                                 </div>
                             </th>
                             <th class="p-4 w-25">
                                 <div class="d-flex flex-column align-items-center">
                                     <img src="../../../assets/img/h5-custom-icon-8.png" alt="">
-                                    <h4 class="pt-3 fw-bold">Professional</h4>
-                                    <h4 class="fw-bold">$59</h4>
+                                    <h5 class="pt-3 fw-bold">Professional</h5>
+                                    <h5 class="fw-bold">$59</h5>
                                 </div>
                             </th>
                             <th class="p-4 w-25">
                                 <div class="d-flex flex-column align-items-center">
                                     <img src="../../../assets/img/h5-custom-icon-9.png" alt="">
-                                    <h4 class="pt-3 fw-bold">Advanced</h4>
-                                    <h4 class="fw-bold">$88</h4>
+                                    <h5 class="pt-3 fw-bold">Advanced</h5>
+                                    <h5 class="fw-bold">$88</h5>
                                 </div>
                             </th>
                         </thead>
