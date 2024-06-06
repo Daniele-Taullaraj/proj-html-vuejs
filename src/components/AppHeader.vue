@@ -175,7 +175,8 @@ export default {
 /* container */
 
 .st_slideContainer {
-    background-color: blanchedalmond;
+    height: 90vh;
+    margin-bottom: 2rem;
 }
 
 .st_containerMain {

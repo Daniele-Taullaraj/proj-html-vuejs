@@ -36,14 +36,14 @@ export default {
 
 <template>
     <div class="CS_bg boxed">
-        <div class="container d-flex flex-column align-items-center w-50 text-center">
+        <div class="container d-flex flex-column align-items-center w-50 text-center ">
             <div class="py-5" v-for="(slide, index) in slides" :key="index" v-show="index === currentIndex">
                 <img :src="slide.imgSrc" alt="Slide image">
                 <p class="py-3">{{ slide.text }}</p>
                 <p class="fs-4 fw-bolder">{{ slide.subText1 }}</p>
                 <p class=" fs-8 m-0">{{ slide.subText2 }}</p>
             </div>
-            <div class="button-container py-0">
+            <div class="button-container py-0 mb-5">
                 <button v-for="(slide, index) in slides" :key="index" :class="{ active: index === currentIndex }"
                     @click="goToSlide(index)" class="indicator"></button>
             </div>
@@ -60,7 +60,7 @@ export default {
     background-size: 100%;
     background-attachment: fixed;
     padding: 2rem 0;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,6 @@ export default {
 
 p {
     color: #ffffff;
-    font-size: 20px;
 }
 
 /* Stile per il bottone attivo */

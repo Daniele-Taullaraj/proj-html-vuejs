@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div id="background-pattern" class="border-bottom">
+    <div id="background-pattern" class="border-bottom border-top py-5">
         <!-- section container della sezione -->
         <div class="container-fluid p-5 ">
 
